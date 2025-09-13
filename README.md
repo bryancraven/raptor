@@ -21,12 +21,6 @@ Install
 - Runtime deps: `pip install -r requirements.txt`
 - Dev/test deps: `pip install -r requirements-dev.txt`
 
-## Repository Description & Topics
-- Suggested description (paste into the GitHub repo “Description” field):
-  - Hazard-based Monte Carlo model estimating the probability of seeing ≥1 raptor on a Boise Greenbelt walk, with species priors, time/weather/habitat/season multipliers, party size and duration, plus plots and reports.
-- Suggested topics (paste into “Topics”):
-  - raptor, birding, ornithology, boise, idaho, ecology, monte-carlo, hazard-model, probability, simulation, python, cli, data-visualization
-
 On macOS if you hit build errors (Python 3.13)
 - Option A (simplest): use a 3.12 venv
   - `brew install python@3.12`
