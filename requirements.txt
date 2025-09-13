@@ -1,0 +1,7 @@
+# Runtime dependencies
+# Use wheels when available. Python 3.13 needs newer versions.
+numpy==1.26.4; python_version < "3.13"
+matplotlib==3.8.4; python_version < "3.13"
+
+numpy>=2.1; python_version >= "3.13"
+matplotlib>=3.9; python_version >= "3.13"

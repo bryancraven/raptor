@@ -1,0 +1,11 @@
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+# Start with Ruff's defaults; adjust as needed per repo norms
+select = ["E", "F", "I"]
+ignore = []
+

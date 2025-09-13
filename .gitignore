@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Outputs
+raptor_prob_dist.png
+raptor_contributions.png
+*.csv
+*.json
+
+# Tools
+.ruff_cache/
+.mypy_cache/
+
