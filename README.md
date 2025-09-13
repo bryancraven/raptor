@@ -1,5 +1,11 @@
 # Raptor Sighting Model
 
+[![CI](https://github.com/bryancraven/raptor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bryancraven/raptor/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+![Python](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12%20|%203.13-blue)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Lint: ruff](https://img.shields.io/badge/lint-ruff-46a2f1)](https://github.com/astral-sh/ruff)
+
 What it does (in plain words)
 - Estimates the chance you’ll see at least one raptor on a Boise Greenbelt walk.
 - You provide context (month, time of day, weather, route mix, duration, party size, and optional personal checklists). The model simulates many plausible days and reports the average probability, credible interval, and top contributing species.
@@ -14,6 +20,12 @@ Install
 - Create venv: `python3 -m venv .venv && source .venv/bin/activate`
 - Runtime deps: `pip install -r requirements.txt`
 - Dev/test deps: `pip install -r requirements-dev.txt`
+
+## Repository Description & Topics
+- Suggested description (paste into the GitHub repo “Description” field):
+  - Hazard-based Monte Carlo model estimating the probability of seeing ≥1 raptor on a Boise Greenbelt walk, with species priors, time/weather/habitat/season multipliers, party size and duration, plus plots and reports.
+- Suggested topics (paste into “Topics”):
+  - raptor, birding, ornithology, boise, idaho, ecology, monte-carlo, hazard-model, probability, simulation, python, cli, data-visualization
 
 On macOS if you hit build errors (Python 3.13)
 - Option A (simplest): use a 3.12 venv
