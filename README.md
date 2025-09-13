@@ -1,10 +1,6 @@
 # Raptor Sighting Model
 
-[![CI](https://github.com/bryancraven/raptor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bryancraven/raptor/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-![Python](https://img.shields.io/badge/python-3.9%20|%203.10%20|%203.11%20|%203.12%20|%203.13-blue)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Lint: ruff](https://img.shields.io/badge/lint-ruff-46a2f1)](https://github.com/astral-sh/ruff)
 
 What it does (in plain words)
 - Estimates the chance you’ll see at least one raptor on a Boise Greenbelt walk.
