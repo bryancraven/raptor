@@ -2,6 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
+
+⚠️ *Note- the model as implemented does not really account for the material local effect of an active nest along the walking route. The presence of a nest would create a type of certainty zone, which would break the model's assumption of spatially uniform habitat effects. This is a known issue and will be a topic of future work.* 
+
 What it does (in plain words)
 - Estimates the chance you’ll see at least one raptor on a Boise Greenbelt walk.
 - You provide context (month, time of day, weather, route mix, duration, party size, and optional personal checklists). The model simulates many plausible days and reports the average probability, credible interval, and top contributing species.
